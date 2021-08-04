@@ -9,7 +9,9 @@ of each opening for each rating band.
 
 # Results
 
-![alt text](https://github.com/jhadden04/lichess-ratings-to-openings-analysis/blob/main/images/1500-best-openings?raw=true)
+(You need light mode on to see the axis)
+
+![image](https://user-images.githubusercontent.com/59323260/128207449-815920b5-9db9-469e-8bbb-94f1c2d26826.png)
 
 
 

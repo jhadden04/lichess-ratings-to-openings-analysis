@@ -53,117 +53,15 @@ Some more intriguing things to discuss:
 * Apart from the lowest rating band, the most popular openings overall are Sicilian, French and Scandinavian. This isn't surprising, as these openings are defined by the first move, whereas, something like Ruy Lopez has to wait until the third until Lichess defines it as the game's opening.
 * The Van't Kruijs e3, which leaves white with 0.0 engine eval, rather than e4's 0.3, is broadly thought of as unusual and pointless. This shows that at the low level rating, with a small knowledge of opening theory, why the lowest rating band plays the Van't Kruijs
 * The Caro-Kann is only played at the higher rating bands, suggesting it has a higher skill level to be played effectively
-* Openings like Ruy Lopez, QGD, English Opening, Italian Game, Bishop's are continuously popular
+* Openings like Ruy Lopez, QGD, English Opening, Italian Game, Bishop's Opening, Scotch Game and Four Knights are continuously popular white openings in all rating bands.
 
 ### Right hand side graphs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*It should be noted that these graphs are on the most popular overall ratings and aren't related to the rating bands*
+*Also, the popularity of each opening is ordered from top to bottom on the legends*
+* The Caro-Kann was primarily used by the higher rating bands and is more successful in the higher rating bands.
+* These openings average at more like 50% win rate for white, showing they aren't as successful.
+* The Sicilian and The French are similarly effective for black, but The Scandinavian is less successful until the highest rating bands.
+* On the bottom graph, QGD is a bit of an anomaly for 600-1000, as it is much higher than normal. This is because in the 600-1000 rating band, much less games are played and there are much less players, meaning the results are less reliable as there is a smaller dataset.
 
 
 

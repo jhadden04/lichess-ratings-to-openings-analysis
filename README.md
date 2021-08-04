@@ -7,14 +7,15 @@ find were based on GMs. Unfortunately, [I](https://lichess.org/@/jhadden04) am n
 The solution was to use the [lichess database](https://database.lichess.org/) and parse 5000,000games and their openings and find the win percentage
 of each opening for each rating band.
 
-
+### What is it?
+This is a series of graphs that illustrate the win rates of the most successful openings for various different Lichess ratings. Also, there is information on the 
+most used openings for the various rating bands and their win rates. As well as this, there is info on the most popular openings for the rating bands
+The X axis show the rating bands, the Y axis show the win rate of the opening.
 
 # Results
 
-(You need light mode on to see the axis)
-## What is it?
-This is a series of graphs that illustrate the win rates of the most successful openings for various different Lichess ratings. Also, there is information on the 
-most used openings on each 
+(You need light mode on to see the axis or you can click and view the graphs in another tab)
+
 
   
 
@@ -35,8 +36,9 @@ Line Graphs of Most Popular openings for each rating band | Line Graphs of win r
 ![image](https://user-images.githubusercontent.com/59323260/128211939-787a1cd1-3f46-4d4f-8e84-a56c2519475c.png) |![image](https://user-images.githubusercontent.com/59323260/128212472-23fd7d06-9cf1-43ef-ab2f-2aefa8ae6723.png)
 ![image](https://user-images.githubusercontent.com/59323260/128211967-94c6c035-666e-4e94-abf8-de7db5a17257.png) |![image](https://user-images.githubusercontent.com/59323260/128212489-709b5a3f-0fa7-42d5-8770-71a7c3e797d5.png)
 
-
-
+Some interesting things to discuss here:
+ 
+* 
 
 
 

@@ -9,7 +9,7 @@ of each opening for each rating band.
 
 # Results
 
-![Best Openings for 1500]()
+![Best Openings for 1500](images/1500-best-openings.png)
 
 
 

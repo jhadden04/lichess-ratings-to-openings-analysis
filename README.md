@@ -18,7 +18,7 @@ The X axis show the rating bands, the Y axis show the win rate of the opening.
 
 
   
-
+## Most Successful Openings in Each Rating Band
 Bar Graphs of Win Rate of most successful openings for each rating band| Line Graphs of Win rate of most successful openings for all rating bands
 -----------|------------
 ![image](https://user-images.githubusercontent.com/59323260/128209082-e01b29d0-dea0-43d3-ad35-b7c3ce614eaa.png)|![image](https://user-images.githubusercontent.com/59323260/128210063-20165b35-65cc-4c53-a519-c8c254f29c56.png)
@@ -26,9 +26,20 @@ Bar Graphs of Win Rate of most successful openings for each rating band| Line Gr
 ![image](https://user-images.githubusercontent.com/59323260/128209190-d84d4355-eced-4e40-b04d-d90e6c1a967a.png)|![image](https://user-images.githubusercontent.com/59323260/128210089-2fb6464e-2804-4432-a03b-508321c9756c.png)
 ![image](https://user-images.githubusercontent.com/59323260/128209223-a0c2080a-8dd4-480f-aefd-1a6de0f8477b.png)|![image](https://user-images.githubusercontent.com/59323260/128210104-693f03cf-5f8a-40b2-bc36-1050cdf60946.png)
 
-  
-  
+Some interesting things to discuss here:
 
+### Left hand side graphs
+* The Queen's, King's and Danish Gambits are all very successful, in the lower two bands, but as you reach the higher two bands, especially with the King's gambit, the negative of the lost pawn outweigh the initiative advantages, due to the higher level of gameplay. This suggests if you are in one of these lowers levels you should have one of these
+openings in your repertoire.
+* However, it is slightly misleading, as "Queen's Gambit" refers to a series of moves that aren't really in the opening book, so it doesn't go to "Declined" or "Accepted", which shows why it could be extra successful. Furthermore, The Queen's Gambit isn't that successful, as you are discounting that most of the time you will go to the less successful declined variation.
+* It is interesting to see that the two extreme bands have decidedly more simple and complex openings than the middle two.
+* The average win rate of the openings on each rating band are pretty similar throughout: broadly staying between 0.5 and 0.54.
+
+### Right hand side graphs
+* For the top rating band, the average win rate of the openings seem to trend upwards, showing these openings are only effective with a higher level of skill. In addition, the lower rating band's opening's win rate seems to trend down and the middle two bands form more of an arch.
+* The movement of the opening win rate lines in the top rating bands are much less sporadic.
+  
+## Most Popular Openings in Each Rating Band
 Line Graphs of Most Popular openings for each rating band | Line Graphs of win rate of most popular openings for all rating bands
 ------------ | -------------
 ![image](https://user-images.githubusercontent.com/59323260/128211807-00660d0c-fa53-4aa4-99a0-fd81600caf1e.png) |![image](https://user-images.githubusercontent.com/59323260/128212424-e1d44e33-cfa8-4998-a7f7-cc8346437dfd.png)
@@ -36,9 +47,17 @@ Line Graphs of Most Popular openings for each rating band | Line Graphs of win r
 ![image](https://user-images.githubusercontent.com/59323260/128211939-787a1cd1-3f46-4d4f-8e84-a56c2519475c.png) |![image](https://user-images.githubusercontent.com/59323260/128212472-23fd7d06-9cf1-43ef-ab2f-2aefa8ae6723.png)
 ![image](https://user-images.githubusercontent.com/59323260/128211967-94c6c035-666e-4e94-abf8-de7db5a17257.png) |![image](https://user-images.githubusercontent.com/59323260/128212489-709b5a3f-0fa7-42d5-8770-71a7c3e797d5.png)
 
-Some interesting things to discuss here:
- 
-* 
+Some more intriguing things to discuss:
+
+### Left hand side graphs
+* Apart from the lowest rating band, the most popular openings overall are Sicilian, French and Scandinavian. This isn't surprising, as these openings are defined by the first move, whereas, something like Ruy Lopez has to wait until the third until Lichess defines it as the game's opening.
+* The Van't Kruijs e3, which leaves white with 0.0 engine eval, rather than e4's 0.3, is broadly thought of as unusual and pointless. This shows that at the low level rating, with a small knowledge of opening theory, why the lowest rating band plays the Van't Kruijs
+* The Caro-Kann is only played at the higher rating bands, suggesting it has a higher skill level to be played effectively
+* Openings like Ruy Lopez, QGD, English Opening, Italian Game, Bishop's are continuously popular
+
+### Right hand side graphs
+
+
 
 
 

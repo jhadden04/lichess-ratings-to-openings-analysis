@@ -65,8 +65,10 @@ Some more intriguing things to discuss:
 
 ## How does it work?
 
-I downloaded 5,000,000 games (in pgn form) from the [Lichess database](https://database.lichess.org/), extracted them using bz2 and then wrote a program to parse through these games and filter them for unecessary things like the moves and took the important things like the opening information and the game result and put it onto a JSON file, which was many magnitudes smaller than the original download. 
+I downloaded 5,000,000 games (in pgn form) from the [Lichess database](https://database.lichess.org/), extracted them using bz2 and then wrote a program to go through these games and filter them for unecessary things like the moves and took the important things like the opening information and the game result and put it onto a JSON file, which was many magnitudes smaller than the original download, meaning when I did the actual parsing, it was much more efficient, finishing in mere seconds. 
 
-The basic premise of the script was to count how many wins and losses each opening got in each opening band, but before this, I had to define what was an opening? Due to the complicated nature of chess, you can get very complex openings like "Queen's Gambit Accepted: Central Variation, Greco Variation", which I got in a recent game. This is a problem, as this opening isn't going to occur thousands of times in each rating band to get the reliabilty we need. The solution was to cut the variations away from the opening,  meaning that rare opening was now the popular "Queen's Gambit Accepted
+The basic premise of the script was to count how many wins and losses each opening got in each opening band, but before this, I had to define what was an opening? Due to the complicated nature of chess, you can get very complex openings like "Queen's Gambit Accepted: Central Variation, Greco Variation", which I got in a recent game. This is a problem, as this opening isn't going to occur thousands of times in each rating band to get the reliabilty we need. The solution was to cut the variations away from the opening,  meaning that rare opening was now the popular "Queen's Gambit Accepted. 
+
+From there, it was just the simple matter of organising openings into their respective rating bands, finding their win ratios and finally organising the data into graphs using matplotlib.
 
 

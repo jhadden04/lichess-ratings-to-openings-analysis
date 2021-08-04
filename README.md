@@ -74,4 +74,11 @@ From there, it was just the simple matter of organising openings into their resp
 ## Limitiations
 * Google Colabatory
 I decided to use ipynb in Google Colab as I like the freedom and simplicity it provides. Unfortunately, there were some downsides. Firstly, to import a file into Google Colab, it has to be from your Google drive, which means space was limited. This meant I only ended up using one month's worth of games from 2017, as that was a managable size, due to there being less games played. This leads to a smaller dataset and less reliable results. Furthermore, Google Colab has a timeout after 8ish hours, so if you want to parse a very large original download, you may end up being timed-out, meaning you lose your progress
+ 
+
+## Looking Forward
+* Speed
+This was never a particularly optimised script and there are lots of improvements possible, for example using a database rather than a crude textfile
+* Opening Variations
+As I mentioned earlier, I had to ignore any opening variations for reliability's sake, but this would be an interesting avenue to explore, especially in openings like the Sicilian where, there are many variations which have been extensively studied.
 

@@ -9,7 +9,7 @@ of each opening for each rating band.
 
 # Results
 
-![Best Openings for 1500](https://github.com/jhadden04/lichess-ratings-to-openings-analysis/issues/2)
+![alt text](https://github.com/jhadden04/lichess-ratings-to-openings-analysis/blob/main/images/1500-best-openings?raw=true)
 
 
 

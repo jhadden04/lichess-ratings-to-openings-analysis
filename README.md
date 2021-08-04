@@ -4,7 +4,7 @@ When looking for a new opening to play, the first thing I did was to search for 
 [results](https://thechessworld.com/articles/openings/chess-statistics-top-10-best-openings-for-white-and-black/) I could 
 find were based on GMs. Unfortunately, [I](https://lichess.org/@/jhadden04) am not a GM, so this advice didn't really apply to me, so I had to go back to the drawing board.
 
-The solution was to use the [lichess database](https://database.lichess.org/) and parse 5000,000games and their openings and find the win percentage
+The solution was to use the [lichess database](https://database.lichess.org/) and parse 5,000,000 games and their openings and find the win percentage
 of each opening for each rating band.
 
 ### What is it?
@@ -14,7 +14,7 @@ The X axis show the rating bands, the Y axis show the win rate of the opening.
 
 # Results
 
-(You need light mode on to see the axis or you can click and view the graphs in another tab)
+*To see the axis: turn on light mode or click on the graphs and view them in another tab*
 
 
   
@@ -63,5 +63,10 @@ Some more intriguing things to discuss:
 * The Sicilian and The French are similarly effective for black, but The Scandinavian is less successful until the highest rating bands.
 * On the bottom graph, QGD is a bit of an anomaly for 600-1000, as it is much higher than normal. This is because in the 600-1000 rating band, much less games are played and there are much less players, meaning the results are less reliable as there is a smaller dataset.
 
+## How does it work?
+
+I downloaded 5,000,000 games (in pgn form) from the [Lichess database](https://database.lichess.org/), extracted them using bz2 and then wrote a program to parse through these games and filter them for unecessary things like the moves and took the important things like the opening information and the game result and put it onto a JSON file, which was many magnitudes smaller than the original download. 
+
+The basic premise of the script was to count how many wins and losses each opening got in each opening band, but before this, I had to define what was an opening? Due to the complicated nature of chess, you can get very complex openings like "Queen's Gambit Accepted: Central Variation, Greco Variation", which I got in a recent game. This is a problem, as this opening isn't going to occur thousands of times in each rating band to get the reliabilty we need. The solution was to cut the variations away from the opening,  meaning that rare opening was now the popular "Queen's Gambit Accepted
 
 

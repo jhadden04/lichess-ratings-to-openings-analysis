@@ -15,7 +15,9 @@ The X axis show the rating bands, the Y axis show the win rate of the opening.
 # Results
 
 *To see the axis: turn on light mode or click on the graphs and view them in another tab*
+
 *[Reddit post](https://www.reddit.com/r/chess/comments/oy11q4/i_looked_at_5_million_games_to_see_which_were_the/)*
+
 *To see all the graphs as well as the raw data, look at the .ipynb*
 
   

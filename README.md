@@ -85,3 +85,6 @@ This was never a particularly optimised script and there are lots of improvement
 
 As I mentioned earlier, I had to ignore any opening variations for reliability's sake, but this would be an interesting avenue to explore, especially in openings like the Sicilian where, there are many variations which have been extensively studied.
 
+* Working with Black's openings
+
+I have tried cloning the code to work with black, but unfortunately, it isn't that simple, as it is much trickier to differentiate the best openings for black from the worst openings for white, whereas vice-versa, it was quite simple and easy. A possible solution, which also applies to the variations, is to use the ECO categorisation.
